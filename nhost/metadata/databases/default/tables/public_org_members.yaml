@@ -1,0 +1,7 @@
+table:
+  name: org_members
+  schema: public
+object_relationships:
+  - name: organization
+    using:
+      foreign_key_constraint_on: org_id
